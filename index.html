@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.css">
+  <title>dino ipsum generator</title>
+</head>
+<body>
+  
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        
+        <div class="bg-dark bg-gradient p-4 shadow-sm">
+          <h3 class="fw-normal text-white">Dino Ipsum Generator</h3>
+          <p class="fw-light text-light my-auto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut at temporibus voluptatibus aspernatur quas perspiciatis praesentium minus alias animi.
+          </p>
+        </div>
+        
+        <div class="form-wrapper my-3">
+          <div class="form-group mb-3">
+            <label for="paragraph" class="form-label fw-light">
+              Number of paragraphs
+            </label>
+            <input 
+              type="number" 
+              id="paragraph" 
+              class="form-control input-paragraph"
+              placeholder="number of paragraphs ...">
+          </div>
+          <div class="form-group mb-3">
+            <label for="word" class="form-label fw-light">
+              Number of words
+            </label>
+            <input 
+              type="number" 
+              id="paragraph" 
+              class="form-control input-word"
+              placeholder="number of words ...">
+          </div>
+          <div class="button-wrapper">
+            <button class="btn btn-dark rounded-1 btn-generate me-1">
+              generate
+            </button>
+            <button class="btn btn-outline-secondary rounded-1 btn-copy">
+              copy
+            </button>
+          </div>
+        </div>
+        
+        <div class="bg-white p-3 shadow-sm">
+          <h3 class="fw-normal">Result</h3><hr>
+          <div class="content"></div>
+        </div>
+        
+        <div class="text-center mt-5">
+          <span class="fw-light">
+            created by
+            <a 
+              href="https://instagram.com/candradwicahyo18"
+              target="_blank"
+              class="text-decoration-none text-primary fw-normal">
+              candra dwi cahyo
+            </a>
+          </span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
